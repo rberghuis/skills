@@ -1,0 +1,23 @@
+{
+  "name": "rberghuis",
+  "owner": {
+    "name": "Robbert Berghuis",
+    "url": "https://github.com/rberghuis"
+  },
+  "description": "Agent skills by Robbert Berghuis, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "rberghuis-skills",
+      "source": "./",
+      "description": "Agent skills by Robbert Berghuis, including twentse-steadiness: a calm, understated Twentse persona that puts deeds over words.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "persona",
+        "communication",
+        "twente",
+        "nuchter"
+      ]
+    }
+  ]
+}
