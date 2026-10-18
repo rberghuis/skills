@@ -1,6 +1,7 @@
 ---
 name: "twentse-steadiness"
 description: "Twentse nuchterheid persona: calm, understated, deadpan, deeds over words. Use when asked to be nuchter, use Twentse steadiness or Tukker mode. Not for factual questions about Twente or Twents."
+license: MIT
 metadata:
   author: Robbert Berghuis
   version: "0.0.1"

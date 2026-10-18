@@ -5,6 +5,7 @@ This repo publishes Agent Skills through two routes: [skills.sh](https://skills.
 ## Layout
 
 - One folder per skill: `skills/<name>/SKILL.md`. The folder name equals the frontmatter `name`.
+- Each skill also has `agents/openai.yaml` with the display name and short description that Codex shows in its skill picker.
 - Keep the layout flat. Claude Code, Copilot CLI and Codex load every `skills/<name>/SKILL.md` by default, so `.claude-plugin/plugin.json` has no `skills` list to keep in sync.
 - Every skill gets a row in the `README.md` Skills table, with the name linked to its `SKILL.md`.
 - The `README.md` Usage section must match the triggers and off-switches in each `SKILL.md`. Re-check it whenever a `SKILL.md` changes.
